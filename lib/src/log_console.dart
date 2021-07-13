@@ -25,7 +25,7 @@ class LogConsole extends StatefulWidget {
 class LogConsoleState extends State<LogConsole> {
   List<TextSpan> filteredBuffer = [];
   var _scrollController = ScrollController();
-  double _logFontSize = 16;
+  double _logFontSize = 14;
   bool _scrollListenerEnabled = true;
   bool _followBottom = true;
 
